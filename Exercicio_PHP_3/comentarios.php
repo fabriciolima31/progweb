@@ -7,7 +7,8 @@
 	<H1>Este e um grande cabeçalho</H1>
 	<h3>Este aqui e um pequeno cabeçalho</h3>
 	
-	<p align="right"><?php session_start(); echo "USER: ".$_SESSION['user']; ?></p>
+	<p align="right"><?php session_start(); if(!$_SESSION['user']){header("Location: index.html"); }echo "USER: ".$_SESSION['user']; ?></p>
+	<p align="right"><a href="logout.php">Sair</a></p>
 	<p align="justify"><br>Aqui eu coloquei um paragrafo com um texto aleatorio, e a seguir vou inserir um formulario dentro da tabela.<br>
 	 Alem disso, aqui vai um link: <a href="http://icomp.ufam.edu.br">http://icomp.ufam.edu.br/davname</a></p>
 
