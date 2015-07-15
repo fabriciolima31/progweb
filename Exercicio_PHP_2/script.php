@@ -1,9 +1,8 @@
 <?php 
-	$HOST = "localhost";
-	$USER = "root";
-	$PASS = "fjG8HKLt6b7YHxrb";
+	$HOST = getenv('IP');
+	$USER = getenv('C9_USER');
+	$PASS = "Bleach.123";
 	$DB = "coments";
-
 
 	$connect = mysql_connect($HOST, $USER, $PASS) or 
 		die(mysql_error());
@@ -20,5 +19,5 @@
 
 	echo "Nome: ".$nome."<br>";
 	echo "Sexo: ".$sexo."<br>";
-	echo "Comentario".$comentario."<br>";
+	echo "Comentario: ".$comentario."<br>";
 ?>

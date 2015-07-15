@@ -1,11 +1,11 @@
 <?php 
-	$HOST = "localhost";
+	$HOST = "fabriciolima31-progweb-1672046";
 	$USER = "root";
-	$PASS = "fjG8HKLt6b7YHxrb";
+	$PASS = "";
 	$DB = "coments";
 
 
-	$connect = mysql_connect($HOST, $USER, $PASS) or 
+	$connect = mysqli_connect($HOST, $USER, $PASS, $DB) or 
 		die(mysql_error());
 	
 	mysql_select_db($DB) or die(mysql_error());
