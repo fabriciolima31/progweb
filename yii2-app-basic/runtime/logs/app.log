@@ -1,0 +1,975 @@
+2015-07-15 21:56:18 [10.240.238.31][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.240.238.31
+    in /home/ubuntu/workspace/yii2-app-basic/views/layouts/main.php:66
+    in /home/ubuntu/workspace/yii2-app-basic/controllers/SiteController.php:52
+2015-07-15 21:56:17 [10.240.238.31][-][-][info][application] $_COOKIE = [
+    'ajs_user_id' => '737200'
+    'ajs_group_id' => 'null'
+    'ajs_anonymous_id' => '\"547b4b2b-1f2c-4391-9eea-ae0e882f38a1\"'
+    '_cioid' => '737200'
+    '_cio' => '67c9fa09-9bc5-9fbc-ff76-fd6257cc7cbe'
+    '_td' => '69a330df-ff9d-48af-dcfa-b0379e292801'
+    'mp_b3c9c8a69380fc42c4c8bcf3755f4878_mixpanel' => '{\"distinct_id\": 737200,\"$initial_referrer\": \"https://bitbucket.org/account/signin/?next=/api/1.0/oauth/authenticate/%3Foauth_token%3Dh4hy55hnGUV7YJt6VN\",\"$initial_referring_domain\": \"bitbucket.org\",\"mp_name_tag\": \"fabriciolima31@gmail.com\",\"uid\": 737200,\"active\": true,\"alpha\": false,\"beta\": false,\"c9version\": \"v2\",\"no_newsletter\": false,\"pricingPlan\": \"Free\",\"region\": \"usw\",\"id\": 737200,\"$created\": \"2015-07-10T20:57:23.972Z\",\"$email\": \"fabriciolima31@gmail.com\",\"$first_name\": \"Fabricio\",\"$last_name\": \"Lima\",\"$name\": \"Fabricio Lima\",\"$username\": \"fabriciolima31\",\"subscription_on_signup\": \"\",\"Experiment: EID_7_More_Memory\": \"Original\",\"lastWorkspaceTypeUsed\": \"php\",\"Optimizely EID_7_More_Memory\": \"Original\"}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'progweb-fabriciolima31.c9.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'https://progweb-fabriciolima31.c9.io/yii2-app-basic/'
+    'HTTP_COOKIE' => 'ajs_user_id=737200; ajs_group_id=null; ajs_anonymous_id=%22547b4b2b-1f2c-4391-9eea-ae0e882f38a1%22; _cioid=737200; _cio=67c9fa09-9bc5-9fbc-ff76-fd6257cc7cbe; _td=69a330df-ff9d-48af-dcfa-b0379e292801; mp_b3c9c8a69380fc42c4c8bcf3755f4878_mixpanel=%7B%22distinct_id%22%3A%20737200%2C%22%24initial_referrer%22%3A%20%22https%3A%2F%2Fbitbucket.org%2Faccount%2Fsignin%2F%3Fnext%3D%2Fapi%2F1.0%2Foauth%2Fauthenticate%2F%253Foauth_token%253Dh4hy55hnGUV7YJt6VN%22%2C%22%24initial_referring_domain%22%3A%20%22bitbucket.org%22%2C%22mp_name_tag%22%3A%20%22fabriciolima31%40gmail.com%22%2C%22uid%22%3A%20737200%2C%22active%22%3A%20true%2C%22alpha%22%3A%20false%2C%22beta%22%3A%20false%2C%22c9version%22%3A%20%22v2%22%2C%22no_newsletter%22%3A%20false%2C%22pricingPlan%22%3A%20%22Free%22%2C%22region%22%3A%20%22usw%22%2C%22id%22%3A%20737200%2C%22%24created%22%3A%20%222015-07-10T20%3A57%3A23.972Z%22%2C%22%24email%22%3A%20%22fabriciolima31%40gmail.com%22%2C%22%24first_name%22%3A%20%22Fabricio%22%2C%22%24last_name%22%3A%20%22Lima%22%2C%22%24name%22%3A%20%22Fabricio%20Lima%22%2C%22%24username%22%3A%20%22fabriciolima31%22%2C%22subscription_on_signup%22%3A%20%22%22%2C%22Experiment%3A%20EID_7_More_Memory%22%3A%20%22Original%22%2C%22lastWorkspaceTypeUsed%22%3A%20%22php%22%2C%22Optimizely%20EID_7_More_Memory%22%3A%20%22Original%22%7D'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_REGION' => 'usw'
+    'HTTP_X_FORWARDED_FOR' => '200.129.163.72'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/v0.10.35/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at progweb-fabriciolima31.c9.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'progweb-fabriciolima31.c9.io'
+    'SERVER_ADDR' => '172.17.30.16'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.238.31'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '57431'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2-app-basic/web/'
+    'SCRIPT_NAME' => '/yii2-app-basic/web/index.php'
+    'PHP_SELF' => '/yii2-app-basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1436997377.971
+    'REQUEST_TIME' => 1436997377
+]
+2015-07-15 21:57:24 [10.240.238.31][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.240.238.31
+    in /home/ubuntu/workspace/yii2-app-basic/views/layouts/main.php:66
+    in /home/ubuntu/workspace/yii2-app-basic/controllers/SiteController.php:52
+2015-07-15 21:57:24 [10.240.238.31][-][-][info][application] $_COOKIE = [
+    'ajs_user_id' => '737200'
+    'ajs_group_id' => 'null'
+    'ajs_anonymous_id' => '\"547b4b2b-1f2c-4391-9eea-ae0e882f38a1\"'
+    '_cioid' => '737200'
+    '_cio' => '67c9fa09-9bc5-9fbc-ff76-fd6257cc7cbe'
+    '_td' => '69a330df-ff9d-48af-dcfa-b0379e292801'
+    'mp_b3c9c8a69380fc42c4c8bcf3755f4878_mixpanel' => '{\"distinct_id\": 737200,\"$initial_referrer\": \"https://bitbucket.org/account/signin/?next=/api/1.0/oauth/authenticate/%3Foauth_token%3Dh4hy55hnGUV7YJt6VN\",\"$initial_referring_domain\": \"bitbucket.org\",\"mp_name_tag\": \"fabriciolima31@gmail.com\",\"uid\": 737200,\"active\": true,\"alpha\": false,\"beta\": false,\"c9version\": \"v2\",\"no_newsletter\": false,\"pricingPlan\": \"Free\",\"region\": \"usw\",\"id\": 737200,\"$created\": \"2015-07-10T20:57:23.972Z\",\"$email\": \"fabriciolima31@gmail.com\",\"$first_name\": \"Fabricio\",\"$last_name\": \"Lima\",\"$name\": \"Fabricio Lima\",\"$username\": \"fabriciolima31\",\"subscription_on_signup\": \"\",\"Experiment: EID_7_More_Memory\": \"Original\",\"lastWorkspaceTypeUsed\": \"php\",\"Optimizely EID_7_More_Memory\": \"Original\"}'
+    '_csrf' => '5a293035351b7031098e7206586e0bb67f03db7e1e77441cb4b2da3e64292086a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4l9gJMHeOvQ147sh4eWjLJmlxi9VIokK\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'progweb-fabriciolima31.c9.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'ajs_user_id=737200; ajs_group_id=null; ajs_anonymous_id=%22547b4b2b-1f2c-4391-9eea-ae0e882f38a1%22; _cioid=737200; _cio=67c9fa09-9bc5-9fbc-ff76-fd6257cc7cbe; _td=69a330df-ff9d-48af-dcfa-b0379e292801; mp_b3c9c8a69380fc42c4c8bcf3755f4878_mixpanel=%7B%22distinct_id%22%3A%20737200%2C%22%24initial_referrer%22%3A%20%22https%3A%2F%2Fbitbucket.org%2Faccount%2Fsignin%2F%3Fnext%3D%2Fapi%2F1.0%2Foauth%2Fauthenticate%2F%253Foauth_token%253Dh4hy55hnGUV7YJt6VN%22%2C%22%24initial_referring_domain%22%3A%20%22bitbucket.org%22%2C%22mp_name_tag%22%3A%20%22fabriciolima31%40gmail.com%22%2C%22uid%22%3A%20737200%2C%22active%22%3A%20true%2C%22alpha%22%3A%20false%2C%22beta%22%3A%20false%2C%22c9version%22%3A%20%22v2%22%2C%22no_newsletter%22%3A%20false%2C%22pricingPlan%22%3A%20%22Free%22%2C%22region%22%3A%20%22usw%22%2C%22id%22%3A%20737200%2C%22%24created%22%3A%20%222015-07-10T20%3A57%3A23.972Z%22%2C%22%24email%22%3A%20%22fabriciolima31%40gmail.com%22%2C%22%24first_name%22%3A%20%22Fabricio%22%2C%22%24last_name%22%3A%20%22Lima%22%2C%22%24name%22%3A%20%22Fabricio%20Lima%22%2C%22%24username%22%3A%20%22fabriciolima31%22%2C%22subscription_on_signup%22%3A%20%22%22%2C%22Experiment%3A%20EID_7_More_Memory%22%3A%20%22Original%22%2C%22lastWorkspaceTypeUsed%22%3A%20%22php%22%2C%22Optimizely%20EID_7_More_Memory%22%3A%20%22Original%22%7D; _csrf=5a293035351b7031098e7206586e0bb67f03db7e1e77441cb4b2da3e64292086a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224l9gJMHeOvQ147sh4eWjLJmlxi9VIokK%22%3B%7D'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_REGION' => 'usw'
+    'HTTP_X_FORWARDED_FOR' => '200.129.163.72'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/v0.10.35/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at progweb-fabriciolima31.c9.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'progweb-fabriciolima31.c9.io'
+    'SERVER_ADDR' => '172.17.30.16'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.238.31'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '58507'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2-app-basic/web/'
+    'SCRIPT_NAME' => '/yii2-app-basic/web/index.php'
+    'PHP_SELF' => '/yii2-app-basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1436997444.447
+    'REQUEST_TIME' => 1436997444
+]
+2015-07-15 21:57:34 [10.240.25.150][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.240.25.150
+    in /home/ubuntu/workspace/yii2-app-basic/views/layouts/main.php:66
+    in /home/ubuntu/workspace/yii2-app-basic/controllers/SiteController.php:88
+2015-07-15 21:57:34 [10.240.25.150][-][-][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    'ajs_user_id' => '737200'
+    'ajs_group_id' => 'null'
+    'ajs_anonymous_id' => '\"547b4b2b-1f2c-4391-9eea-ae0e882f38a1\"'
+    '_cioid' => '737200'
+    '_cio' => '67c9fa09-9bc5-9fbc-ff76-fd6257cc7cbe'
+    '_td' => '69a330df-ff9d-48af-dcfa-b0379e292801'
+    'mp_b3c9c8a69380fc42c4c8bcf3755f4878_mixpanel' => '{\"distinct_id\": 737200,\"$initial_referrer\": \"https://bitbucket.org/account/signin/?next=/api/1.0/oauth/authenticate/%3Foauth_token%3Dh4hy55hnGUV7YJt6VN\",\"$initial_referring_domain\": \"bitbucket.org\",\"mp_name_tag\": \"fabriciolima31@gmail.com\",\"uid\": 737200,\"active\": true,\"alpha\": false,\"beta\": false,\"c9version\": \"v2\",\"no_newsletter\": false,\"pricingPlan\": \"Free\",\"region\": \"usw\",\"id\": 737200,\"$created\": \"2015-07-10T20:57:23.972Z\",\"$email\": \"fabriciolima31@gmail.com\",\"$first_name\": \"Fabricio\",\"$last_name\": \"Lima\",\"$name\": \"Fabricio Lima\",\"$username\": \"fabriciolima31\",\"subscription_on_signup\": \"\",\"Experiment: EID_7_More_Memory\": \"Original\",\"lastWorkspaceTypeUsed\": \"php\",\"Optimizely EID_7_More_Memory\": \"Original\"}'
+    '_csrf' => '5a293035351b7031098e7206586e0bb67f03db7e1e77441cb4b2da3e64292086a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4l9gJMHeOvQ147sh4eWjLJmlxi9VIokK\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'fezobmz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'progweb-fabriciolima31.c9.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'https://progweb-fabriciolima31.c9.io/yii2-app-basic/web/'
+    'HTTP_COOKIE' => 'ajs_user_id=737200; ajs_group_id=null; ajs_anonymous_id=%22547b4b2b-1f2c-4391-9eea-ae0e882f38a1%22; _cioid=737200; _cio=67c9fa09-9bc5-9fbc-ff76-fd6257cc7cbe; _td=69a330df-ff9d-48af-dcfa-b0379e292801; mp_b3c9c8a69380fc42c4c8bcf3755f4878_mixpanel=%7B%22distinct_id%22%3A%20737200%2C%22%24initial_referrer%22%3A%20%22https%3A%2F%2Fbitbucket.org%2Faccount%2Fsignin%2F%3Fnext%3D%2Fapi%2F1.0%2Foauth%2Fauthenticate%2F%253Foauth_token%253Dh4hy55hnGUV7YJt6VN%22%2C%22%24initial_referring_domain%22%3A%20%22bitbucket.org%22%2C%22mp_name_tag%22%3A%20%22fabriciolima31%40gmail.com%22%2C%22uid%22%3A%20737200%2C%22active%22%3A%20true%2C%22alpha%22%3A%20false%2C%22beta%22%3A%20false%2C%22c9version%22%3A%20%22v2%22%2C%22no_newsletter%22%3A%20false%2C%22pricingPlan%22%3A%20%22Free%22%2C%22region%22%3A%20%22usw%22%2C%22id%22%3A%20737200%2C%22%24created%22%3A%20%222015-07-10T20%3A57%3A23.972Z%22%2C%22%24email%22%3A%20%22fabriciolima31%40gmail.com%22%2C%22%24first_name%22%3A%20%22Fabricio%22%2C%22%24last_name%22%3A%20%22Lima%22%2C%22%24name%22%3A%20%22Fabricio%20Lima%22%2C%22%24username%22%3A%20%22fabriciolima31%22%2C%22subscription_on_signup%22%3A%20%22%22%2C%22Experiment%3A%20EID_7_More_Memory%22%3A%20%22Original%22%2C%22lastWorkspaceTypeUsed%22%3A%20%22php%22%2C%22Optimizely%20EID_7_More_Memory%22%3A%20%22Original%22%7D; _csrf=5a293035351b7031098e7206586e0bb67f03db7e1e77441cb4b2da3e64292086a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224l9gJMHeOvQ147sh4eWjLJmlxi9VIokK%22%3B%7D'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_REGION' => 'usw'
+    'HTTP_X_FORWARDED_FOR' => '200.129.163.72'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/v0.10.35/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at progweb-fabriciolima31.c9.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'progweb-fabriciolima31.c9.io'
+    'SERVER_ADDR' => '172.17.30.16'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.25.150'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '45412'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/yii2-app-basic/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/yii2-app-basic/web/index.php'
+    'PHP_SELF' => '/yii2-app-basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1436997454.694
+    'REQUEST_TIME' => 1436997454
+]
+2015-07-15 21:57:50 [10.240.213.116][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.240.213.116
+    in /home/ubuntu/workspace/yii2-app-basic/views/layouts/main.php:66
+    in /home/ubuntu/workspace/yii2-app-basic/controllers/SiteController.php:94
+2015-07-15 21:57:50 [10.240.213.116][-][-][info][application] $_GET = [
+    'r' => 'site/about'
+]
+
+$_COOKIE = [
+    'ajs_user_id' => '737200'
+    'ajs_group_id' => 'null'
+    'ajs_anonymous_id' => '\"547b4b2b-1f2c-4391-9eea-ae0e882f38a1\"'
+    '_cioid' => '737200'
+    '_cio' => '67c9fa09-9bc5-9fbc-ff76-fd6257cc7cbe'
+    '_td' => '69a330df-ff9d-48af-dcfa-b0379e292801'
+    'mp_b3c9c8a69380fc42c4c8bcf3755f4878_mixpanel' => '{\"distinct_id\": 737200,\"$initial_referrer\": \"https://bitbucket.org/account/signin/?next=/api/1.0/oauth/authenticate/%3Foauth_token%3Dh4hy55hnGUV7YJt6VN\",\"$initial_referring_domain\": \"bitbucket.org\",\"mp_name_tag\": \"fabriciolima31@gmail.com\",\"uid\": 737200,\"active\": true,\"alpha\": false,\"beta\": false,\"c9version\": \"v2\",\"no_newsletter\": false,\"pricingPlan\": \"Free\",\"region\": \"usw\",\"id\": 737200,\"$created\": \"2015-07-10T20:57:23.972Z\",\"$email\": \"fabriciolima31@gmail.com\",\"$first_name\": \"Fabricio\",\"$last_name\": \"Lima\",\"$name\": \"Fabricio Lima\",\"$username\": \"fabriciolima31\",\"subscription_on_signup\": \"\",\"Experiment: EID_7_More_Memory\": \"Original\",\"lastWorkspaceTypeUsed\": \"php\",\"Optimizely EID_7_More_Memory\": \"Original\"}'
+    '_csrf' => '5a293035351b7031098e7206586e0bb67f03db7e1e77441cb4b2da3e64292086a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4l9gJMHeOvQ147sh4eWjLJmlxi9VIokK\";}'
+    'PHPSESSID' => 'b03vpraajbkf7s8gucf24vnmg7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'fezobmz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'progweb-fabriciolima31.c9.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'ajs_user_id=737200; ajs_group_id=null; ajs_anonymous_id=%22547b4b2b-1f2c-4391-9eea-ae0e882f38a1%22; _cioid=737200; _cio=67c9fa09-9bc5-9fbc-ff76-fd6257cc7cbe; _td=69a330df-ff9d-48af-dcfa-b0379e292801; mp_b3c9c8a69380fc42c4c8bcf3755f4878_mixpanel=%7B%22distinct_id%22%3A%20737200%2C%22%24initial_referrer%22%3A%20%22https%3A%2F%2Fbitbucket.org%2Faccount%2Fsignin%2F%3Fnext%3D%2Fapi%2F1.0%2Foauth%2Fauthenticate%2F%253Foauth_token%253Dh4hy55hnGUV7YJt6VN%22%2C%22%24initial_referring_domain%22%3A%20%22bitbucket.org%22%2C%22mp_name_tag%22%3A%20%22fabriciolima31%40gmail.com%22%2C%22uid%22%3A%20737200%2C%22active%22%3A%20true%2C%22alpha%22%3A%20false%2C%22beta%22%3A%20false%2C%22c9version%22%3A%20%22v2%22%2C%22no_newsletter%22%3A%20false%2C%22pricingPlan%22%3A%20%22Free%22%2C%22region%22%3A%20%22usw%22%2C%22id%22%3A%20737200%2C%22%24created%22%3A%20%222015-07-10T20%3A57%3A23.972Z%22%2C%22%24email%22%3A%20%22fabriciolima31%40gmail.com%22%2C%22%24first_name%22%3A%20%22Fabricio%22%2C%22%24last_name%22%3A%20%22Lima%22%2C%22%24name%22%3A%20%22Fabricio%20Lima%22%2C%22%24username%22%3A%20%22fabriciolima31%22%2C%22subscription_on_signup%22%3A%20%22%22%2C%22Experiment%3A%20EID_7_More_Memory%22%3A%20%22Original%22%2C%22lastWorkspaceTypeUsed%22%3A%20%22php%22%2C%22Optimizely%20EID_7_More_Memory%22%3A%20%22Original%22%7D; _csrf=5a293035351b7031098e7206586e0bb67f03db7e1e77441cb4b2da3e64292086a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224l9gJMHeOvQ147sh4eWjLJmlxi9VIokK%22%3B%7D; PHPSESSID=b03vpraajbkf7s8gucf24vnmg7'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_REGION' => 'usw'
+    'HTTP_X_FORWARDED_FOR' => '200.129.163.72'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/v0.10.35/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at progweb-fabriciolima31.c9.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'progweb-fabriciolima31.c9.io'
+    'SERVER_ADDR' => '172.17.30.16'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.213.116'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '59504'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/about'
+    'REQUEST_URI' => '/yii2-app-basic/web/index.php?r=site/about'
+    'SCRIPT_NAME' => '/yii2-app-basic/web/index.php'
+    'PHP_SELF' => '/yii2-app-basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1436997470.411
+    'REQUEST_TIME' => 1436997470
+]
+2015-07-15 21:58:10 [10.240.213.116][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.240.213.116
+    in /home/ubuntu/workspace/yii2-app-basic/views/layouts/main.php:66
+    in /home/ubuntu/workspace/yii2-app-basic/controllers/SiteController.php:94
+2015-07-15 21:58:10 [10.240.213.116][-][-][info][application] $_GET = [
+    'r' => 'site/about'
+]
+
+$_COOKIE = [
+    'ajs_user_id' => '737200'
+    'ajs_group_id' => 'null'
+    'ajs_anonymous_id' => '\"547b4b2b-1f2c-4391-9eea-ae0e882f38a1\"'
+    '_cioid' => '737200'
+    '_cio' => '67c9fa09-9bc5-9fbc-ff76-fd6257cc7cbe'
+    '_td' => '69a330df-ff9d-48af-dcfa-b0379e292801'
+    'mp_b3c9c8a69380fc42c4c8bcf3755f4878_mixpanel' => '{\"distinct_id\": 737200,\"$initial_referrer\": \"https://bitbucket.org/account/signin/?next=/api/1.0/oauth/authenticate/%3Foauth_token%3Dh4hy55hnGUV7YJt6VN\",\"$initial_referring_domain\": \"bitbucket.org\",\"mp_name_tag\": \"fabriciolima31@gmail.com\",\"uid\": 737200,\"active\": true,\"alpha\": false,\"beta\": false,\"c9version\": \"v2\",\"no_newsletter\": false,\"pricingPlan\": \"Free\",\"region\": \"usw\",\"id\": 737200,\"$created\": \"2015-07-10T20:57:23.972Z\",\"$email\": \"fabriciolima31@gmail.com\",\"$first_name\": \"Fabricio\",\"$last_name\": \"Lima\",\"$name\": \"Fabricio Lima\",\"$username\": \"fabriciolima31\",\"subscription_on_signup\": \"\",\"Experiment: EID_7_More_Memory\": \"Original\",\"lastWorkspaceTypeUsed\": \"php\",\"Optimizely EID_7_More_Memory\": \"Original\"}'
+    '_csrf' => '5a293035351b7031098e7206586e0bb67f03db7e1e77441cb4b2da3e64292086a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4l9gJMHeOvQ147sh4eWjLJmlxi9VIokK\";}'
+    'PHPSESSID' => 'b03vpraajbkf7s8gucf24vnmg7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'fezobmz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'progweb-fabriciolima31.c9.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'ajs_user_id=737200; ajs_group_id=null; ajs_anonymous_id=%22547b4b2b-1f2c-4391-9eea-ae0e882f38a1%22; _cioid=737200; _cio=67c9fa09-9bc5-9fbc-ff76-fd6257cc7cbe; _td=69a330df-ff9d-48af-dcfa-b0379e292801; mp_b3c9c8a69380fc42c4c8bcf3755f4878_mixpanel=%7B%22distinct_id%22%3A%20737200%2C%22%24initial_referrer%22%3A%20%22https%3A%2F%2Fbitbucket.org%2Faccount%2Fsignin%2F%3Fnext%3D%2Fapi%2F1.0%2Foauth%2Fauthenticate%2F%253Foauth_token%253Dh4hy55hnGUV7YJt6VN%22%2C%22%24initial_referring_domain%22%3A%20%22bitbucket.org%22%2C%22mp_name_tag%22%3A%20%22fabriciolima31%40gmail.com%22%2C%22uid%22%3A%20737200%2C%22active%22%3A%20true%2C%22alpha%22%3A%20false%2C%22beta%22%3A%20false%2C%22c9version%22%3A%20%22v2%22%2C%22no_newsletter%22%3A%20false%2C%22pricingPlan%22%3A%20%22Free%22%2C%22region%22%3A%20%22usw%22%2C%22id%22%3A%20737200%2C%22%24created%22%3A%20%222015-07-10T20%3A57%3A23.972Z%22%2C%22%24email%22%3A%20%22fabriciolima31%40gmail.com%22%2C%22%24first_name%22%3A%20%22Fabricio%22%2C%22%24last_name%22%3A%20%22Lima%22%2C%22%24name%22%3A%20%22Fabricio%20Lima%22%2C%22%24username%22%3A%20%22fabriciolima31%22%2C%22subscription_on_signup%22%3A%20%22%22%2C%22Experiment%3A%20EID_7_More_Memory%22%3A%20%22Original%22%2C%22lastWorkspaceTypeUsed%22%3A%20%22php%22%2C%22Optimizely%20EID_7_More_Memory%22%3A%20%22Original%22%7D; _csrf=5a293035351b7031098e7206586e0bb67f03db7e1e77441cb4b2da3e64292086a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224l9gJMHeOvQ147sh4eWjLJmlxi9VIokK%22%3B%7D; PHPSESSID=b03vpraajbkf7s8gucf24vnmg7'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_REGION' => 'usw'
+    'HTTP_X_FORWARDED_FOR' => '200.129.163.72'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/v0.10.35/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at progweb-fabriciolima31.c9.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'progweb-fabriciolima31.c9.io'
+    'SERVER_ADDR' => '172.17.30.16'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.213.116'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '60097'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/about'
+    'REQUEST_URI' => '/yii2-app-basic/web/index.php?r=site/about'
+    'SCRIPT_NAME' => '/yii2-app-basic/web/index.php'
+    'PHP_SELF' => '/yii2-app-basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1436997490.588
+    'REQUEST_TIME' => 1436997490
+]
+2015-07-15 22:02:04 [10.240.238.31][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: /home/ubuntu/workspace/yii2-app-basic/views/site/testehhhh.php' in /home/ubuntu/workspace/yii2-app-basic/vendor/yiisoft/yii2/base/View.php:226
+Stack trace:
+#0 /home/ubuntu/workspace/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/ubuntu/wo...', Array, Object(app\controllers\SiteController))
+#1 /home/ubuntu/workspace/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(371): yii\base\View->render('testehhhh', Array, Object(app\controllers\SiteController))
+#2 /home/ubuntu/workspace/yii2-app-basic/controllers/SiteController.php(98): yii\base\Controller->render('testehhhh')
+#3 [internal function]: app\controllers\SiteController->actionTeste()
+#4 /home/ubuntu/workspace/yii2-app-basic/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /home/ubuntu/workspace/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 /home/ubuntu/workspace/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('teste', Array)
+#7 /home/ubuntu/workspace/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/teste', Array)
+#8 /home/ubuntu/workspace/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/ubuntu/workspace/yii2-app-basic/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2015-07-15 22:02:04 [10.240.238.31][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.240.238.31
+2015-07-15 22:02:04 [10.240.238.31][-][-][info][application] $_GET = [
+    'r' => 'site/teste'
+]
+
+$_COOKIE = [
+    'ajs_user_id' => '737200'
+    'ajs_group_id' => 'null'
+    'ajs_anonymous_id' => '\"547b4b2b-1f2c-4391-9eea-ae0e882f38a1\"'
+    '_cioid' => '737200'
+    '_cio' => '67c9fa09-9bc5-9fbc-ff76-fd6257cc7cbe'
+    '_td' => '69a330df-ff9d-48af-dcfa-b0379e292801'
+    'mp_b3c9c8a69380fc42c4c8bcf3755f4878_mixpanel' => '{\"distinct_id\": 737200,\"$initial_referrer\": \"https://bitbucket.org/account/signin/?next=/api/1.0/oauth/authenticate/%3Foauth_token%3Dh4hy55hnGUV7YJt6VN\",\"$initial_referring_domain\": \"bitbucket.org\",\"mp_name_tag\": \"fabriciolima31@gmail.com\",\"uid\": 737200,\"active\": true,\"alpha\": false,\"beta\": false,\"c9version\": \"v2\",\"no_newsletter\": false,\"pricingPlan\": \"Free\",\"region\": \"usw\",\"id\": 737200,\"$created\": \"2015-07-10T20:57:23.972Z\",\"$email\": \"fabriciolima31@gmail.com\",\"$first_name\": \"Fabricio\",\"$last_name\": \"Lima\",\"$name\": \"Fabricio Lima\",\"$username\": \"fabriciolima31\",\"subscription_on_signup\": \"\",\"Experiment: EID_7_More_Memory\": \"Original\",\"lastWorkspaceTypeUsed\": \"php\",\"Optimizely EID_7_More_Memory\": \"Original\"}'
+    '_csrf' => '5a293035351b7031098e7206586e0bb67f03db7e1e77441cb4b2da3e64292086a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4l9gJMHeOvQ147sh4eWjLJmlxi9VIokK\";}'
+    'PHPSESSID' => 'b03vpraajbkf7s8gucf24vnmg7'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'progweb-fabriciolima31.c9.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'ajs_user_id=737200; ajs_group_id=null; ajs_anonymous_id=%22547b4b2b-1f2c-4391-9eea-ae0e882f38a1%22; _cioid=737200; _cio=67c9fa09-9bc5-9fbc-ff76-fd6257cc7cbe; _td=69a330df-ff9d-48af-dcfa-b0379e292801; mp_b3c9c8a69380fc42c4c8bcf3755f4878_mixpanel=%7B%22distinct_id%22%3A%20737200%2C%22%24initial_referrer%22%3A%20%22https%3A%2F%2Fbitbucket.org%2Faccount%2Fsignin%2F%3Fnext%3D%2Fapi%2F1.0%2Foauth%2Fauthenticate%2F%253Foauth_token%253Dh4hy55hnGUV7YJt6VN%22%2C%22%24initial_referring_domain%22%3A%20%22bitbucket.org%22%2C%22mp_name_tag%22%3A%20%22fabriciolima31%40gmail.com%22%2C%22uid%22%3A%20737200%2C%22active%22%3A%20true%2C%22alpha%22%3A%20false%2C%22beta%22%3A%20false%2C%22c9version%22%3A%20%22v2%22%2C%22no_newsletter%22%3A%20false%2C%22pricingPlan%22%3A%20%22Free%22%2C%22region%22%3A%20%22usw%22%2C%22id%22%3A%20737200%2C%22%24created%22%3A%20%222015-07-10T20%3A57%3A23.972Z%22%2C%22%24email%22%3A%20%22fabriciolima31%40gmail.com%22%2C%22%24first_name%22%3A%20%22Fabricio%22%2C%22%24last_name%22%3A%20%22Lima%22%2C%22%24name%22%3A%20%22Fabricio%20Lima%22%2C%22%24username%22%3A%20%22fabriciolima31%22%2C%22subscription_on_signup%22%3A%20%22%22%2C%22Experiment%3A%20EID_7_More_Memory%22%3A%20%22Original%22%2C%22lastWorkspaceTypeUsed%22%3A%20%22php%22%2C%22Optimizely%20EID_7_More_Memory%22%3A%20%22Original%22%7D; _csrf=5a293035351b7031098e7206586e0bb67f03db7e1e77441cb4b2da3e64292086a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224l9gJMHeOvQ147sh4eWjLJmlxi9VIokK%22%3B%7D; PHPSESSID=b03vpraajbkf7s8gucf24vnmg7'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_REGION' => 'usw'
+    'HTTP_X_FORWARDED_FOR' => '200.129.163.72'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/v0.10.35/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at progweb-fabriciolima31.c9.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'progweb-fabriciolima31.c9.io'
+    'SERVER_ADDR' => '172.17.30.16'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.238.31'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '34527'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/teste'
+    'REQUEST_URI' => '/yii2-app-basic/web/index.php?r=site/teste'
+    'SCRIPT_NAME' => '/yii2-app-basic/web/index.php'
+    'PHP_SELF' => '/yii2-app-basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1436997724.226
+    'REQUEST_TIME' => 1436997724
+]
+2015-07-15 22:02:25 [10.240.212.249][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.240.212.249
+    in /home/ubuntu/workspace/yii2-app-basic/views/layouts/main.php:66
+    in /home/ubuntu/workspace/yii2-app-basic/controllers/SiteController.php:98
+2015-07-15 22:02:25 [10.240.212.249][-][-][info][application] $_GET = [
+    'r' => 'site/teste'
+]
+
+$_COOKIE = [
+    'ajs_user_id' => '737200'
+    'ajs_group_id' => 'null'
+    'ajs_anonymous_id' => '\"547b4b2b-1f2c-4391-9eea-ae0e882f38a1\"'
+    '_cioid' => '737200'
+    '_cio' => '67c9fa09-9bc5-9fbc-ff76-fd6257cc7cbe'
+    '_td' => '69a330df-ff9d-48af-dcfa-b0379e292801'
+    'mp_b3c9c8a69380fc42c4c8bcf3755f4878_mixpanel' => '{\"distinct_id\": 737200,\"$initial_referrer\": \"https://bitbucket.org/account/signin/?next=/api/1.0/oauth/authenticate/%3Foauth_token%3Dh4hy55hnGUV7YJt6VN\",\"$initial_referring_domain\": \"bitbucket.org\",\"mp_name_tag\": \"fabriciolima31@gmail.com\",\"uid\": 737200,\"active\": true,\"alpha\": false,\"beta\": false,\"c9version\": \"v2\",\"no_newsletter\": false,\"pricingPlan\": \"Free\",\"region\": \"usw\",\"id\": 737200,\"$created\": \"2015-07-10T20:57:23.972Z\",\"$email\": \"fabriciolima31@gmail.com\",\"$first_name\": \"Fabricio\",\"$last_name\": \"Lima\",\"$name\": \"Fabricio Lima\",\"$username\": \"fabriciolima31\",\"subscription_on_signup\": \"\",\"Experiment: EID_7_More_Memory\": \"Original\",\"lastWorkspaceTypeUsed\": \"php\",\"Optimizely EID_7_More_Memory\": \"Original\"}'
+    '_csrf' => '5a293035351b7031098e7206586e0bb67f03db7e1e77441cb4b2da3e64292086a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4l9gJMHeOvQ147sh4eWjLJmlxi9VIokK\";}'
+    'PHPSESSID' => 'b03vpraajbkf7s8gucf24vnmg7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'fezobmz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'progweb-fabriciolima31.c9.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'ajs_user_id=737200; ajs_group_id=null; ajs_anonymous_id=%22547b4b2b-1f2c-4391-9eea-ae0e882f38a1%22; _cioid=737200; _cio=67c9fa09-9bc5-9fbc-ff76-fd6257cc7cbe; _td=69a330df-ff9d-48af-dcfa-b0379e292801; mp_b3c9c8a69380fc42c4c8bcf3755f4878_mixpanel=%7B%22distinct_id%22%3A%20737200%2C%22%24initial_referrer%22%3A%20%22https%3A%2F%2Fbitbucket.org%2Faccount%2Fsignin%2F%3Fnext%3D%2Fapi%2F1.0%2Foauth%2Fauthenticate%2F%253Foauth_token%253Dh4hy55hnGUV7YJt6VN%22%2C%22%24initial_referring_domain%22%3A%20%22bitbucket.org%22%2C%22mp_name_tag%22%3A%20%22fabriciolima31%40gmail.com%22%2C%22uid%22%3A%20737200%2C%22active%22%3A%20true%2C%22alpha%22%3A%20false%2C%22beta%22%3A%20false%2C%22c9version%22%3A%20%22v2%22%2C%22no_newsletter%22%3A%20false%2C%22pricingPlan%22%3A%20%22Free%22%2C%22region%22%3A%20%22usw%22%2C%22id%22%3A%20737200%2C%22%24created%22%3A%20%222015-07-10T20%3A57%3A23.972Z%22%2C%22%24email%22%3A%20%22fabriciolima31%40gmail.com%22%2C%22%24first_name%22%3A%20%22Fabricio%22%2C%22%24last_name%22%3A%20%22Lima%22%2C%22%24name%22%3A%20%22Fabricio%20Lima%22%2C%22%24username%22%3A%20%22fabriciolima31%22%2C%22subscription_on_signup%22%3A%20%22%22%2C%22Experiment%3A%20EID_7_More_Memory%22%3A%20%22Original%22%2C%22lastWorkspaceTypeUsed%22%3A%20%22php%22%2C%22Optimizely%20EID_7_More_Memory%22%3A%20%22Original%22%7D; _csrf=5a293035351b7031098e7206586e0bb67f03db7e1e77441cb4b2da3e64292086a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224l9gJMHeOvQ147sh4eWjLJmlxi9VIokK%22%3B%7D; PHPSESSID=b03vpraajbkf7s8gucf24vnmg7'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_REGION' => 'usw'
+    'HTTP_X_FORWARDED_FOR' => '200.129.163.72'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/v0.10.35/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at progweb-fabriciolima31.c9.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'progweb-fabriciolima31.c9.io'
+    'SERVER_ADDR' => '172.17.30.16'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.212.249'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '56783'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/teste'
+    'REQUEST_URI' => '/yii2-app-basic/web/index.php?r=site/teste'
+    'SCRIPT_NAME' => '/yii2-app-basic/web/index.php'
+    'PHP_SELF' => '/yii2-app-basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1436997745.255
+    'REQUEST_TIME' => 1436997745
+]
+2015-07-15 22:02:37 [10.240.213.116][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.240.213.116
+    in /home/ubuntu/workspace/yii2-app-basic/views/layouts/main.php:66
+    in /home/ubuntu/workspace/yii2-app-basic/controllers/SiteController.php:98
+2015-07-15 22:02:37 [10.240.213.116][-][-][info][application] $_GET = [
+    'r' => 'site/teste'
+]
+
+$_COOKIE = [
+    'ajs_user_id' => '737200'
+    'ajs_group_id' => 'null'
+    'ajs_anonymous_id' => '\"547b4b2b-1f2c-4391-9eea-ae0e882f38a1\"'
+    '_cioid' => '737200'
+    '_cio' => '67c9fa09-9bc5-9fbc-ff76-fd6257cc7cbe'
+    '_td' => '69a330df-ff9d-48af-dcfa-b0379e292801'
+    'mp_b3c9c8a69380fc42c4c8bcf3755f4878_mixpanel' => '{\"distinct_id\": 737200,\"$initial_referrer\": \"https://bitbucket.org/account/signin/?next=/api/1.0/oauth/authenticate/%3Foauth_token%3Dh4hy55hnGUV7YJt6VN\",\"$initial_referring_domain\": \"bitbucket.org\",\"mp_name_tag\": \"fabriciolima31@gmail.com\",\"uid\": 737200,\"active\": true,\"alpha\": false,\"beta\": false,\"c9version\": \"v2\",\"no_newsletter\": false,\"pricingPlan\": \"Free\",\"region\": \"usw\",\"id\": 737200,\"$created\": \"2015-07-10T20:57:23.972Z\",\"$email\": \"fabriciolima31@gmail.com\",\"$first_name\": \"Fabricio\",\"$last_name\": \"Lima\",\"$name\": \"Fabricio Lima\",\"$username\": \"fabriciolima31\",\"subscription_on_signup\": \"\",\"Experiment: EID_7_More_Memory\": \"Original\",\"lastWorkspaceTypeUsed\": \"php\",\"Optimizely EID_7_More_Memory\": \"Original\"}'
+    '_csrf' => '5a293035351b7031098e7206586e0bb67f03db7e1e77441cb4b2da3e64292086a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4l9gJMHeOvQ147sh4eWjLJmlxi9VIokK\";}'
+    'PHPSESSID' => 'b03vpraajbkf7s8gucf24vnmg7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'fezobmz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'progweb-fabriciolima31.c9.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'ajs_user_id=737200; ajs_group_id=null; ajs_anonymous_id=%22547b4b2b-1f2c-4391-9eea-ae0e882f38a1%22; _cioid=737200; _cio=67c9fa09-9bc5-9fbc-ff76-fd6257cc7cbe; _td=69a330df-ff9d-48af-dcfa-b0379e292801; mp_b3c9c8a69380fc42c4c8bcf3755f4878_mixpanel=%7B%22distinct_id%22%3A%20737200%2C%22%24initial_referrer%22%3A%20%22https%3A%2F%2Fbitbucket.org%2Faccount%2Fsignin%2F%3Fnext%3D%2Fapi%2F1.0%2Foauth%2Fauthenticate%2F%253Foauth_token%253Dh4hy55hnGUV7YJt6VN%22%2C%22%24initial_referring_domain%22%3A%20%22bitbucket.org%22%2C%22mp_name_tag%22%3A%20%22fabriciolima31%40gmail.com%22%2C%22uid%22%3A%20737200%2C%22active%22%3A%20true%2C%22alpha%22%3A%20false%2C%22beta%22%3A%20false%2C%22c9version%22%3A%20%22v2%22%2C%22no_newsletter%22%3A%20false%2C%22pricingPlan%22%3A%20%22Free%22%2C%22region%22%3A%20%22usw%22%2C%22id%22%3A%20737200%2C%22%24created%22%3A%20%222015-07-10T20%3A57%3A23.972Z%22%2C%22%24email%22%3A%20%22fabriciolima31%40gmail.com%22%2C%22%24first_name%22%3A%20%22Fabricio%22%2C%22%24last_name%22%3A%20%22Lima%22%2C%22%24name%22%3A%20%22Fabricio%20Lima%22%2C%22%24username%22%3A%20%22fabriciolima31%22%2C%22subscription_on_signup%22%3A%20%22%22%2C%22Experiment%3A%20EID_7_More_Memory%22%3A%20%22Original%22%2C%22lastWorkspaceTypeUsed%22%3A%20%22php%22%2C%22Optimizely%20EID_7_More_Memory%22%3A%20%22Original%22%7D; _csrf=5a293035351b7031098e7206586e0bb67f03db7e1e77441cb4b2da3e64292086a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224l9gJMHeOvQ147sh4eWjLJmlxi9VIokK%22%3B%7D; PHPSESSID=b03vpraajbkf7s8gucf24vnmg7'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_REGION' => 'usw'
+    'HTTP_X_FORWARDED_FOR' => '200.129.163.72'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/v0.10.35/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at progweb-fabriciolima31.c9.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'progweb-fabriciolima31.c9.io'
+    'SERVER_ADDR' => '172.17.30.16'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.213.116'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '38273'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/teste'
+    'REQUEST_URI' => '/yii2-app-basic/web/index.php?r=site/teste'
+    'SCRIPT_NAME' => '/yii2-app-basic/web/index.php'
+    'PHP_SELF' => '/yii2-app-basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1436997757.431
+    'REQUEST_TIME' => 1436997757
+]
+2015-07-15 22:04:23 [10.240.25.150][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.240.25.150
+    in /home/ubuntu/workspace/yii2-app-basic/views/layouts/main.php:66
+    in /home/ubuntu/workspace/yii2-app-basic/controllers/SiteController.php:100
+2015-07-15 22:04:23 [10.240.25.150][-][-][info][application] $_GET = [
+    'r' => 'site/teste'
+]
+
+$_COOKIE = [
+    'ajs_user_id' => '737200'
+    'ajs_group_id' => 'null'
+    'ajs_anonymous_id' => '\"547b4b2b-1f2c-4391-9eea-ae0e882f38a1\"'
+    '_cioid' => '737200'
+    '_cio' => '67c9fa09-9bc5-9fbc-ff76-fd6257cc7cbe'
+    '_td' => '69a330df-ff9d-48af-dcfa-b0379e292801'
+    'mp_b3c9c8a69380fc42c4c8bcf3755f4878_mixpanel' => '{\"distinct_id\": 737200,\"$initial_referrer\": \"https://bitbucket.org/account/signin/?next=/api/1.0/oauth/authenticate/%3Foauth_token%3Dh4hy55hnGUV7YJt6VN\",\"$initial_referring_domain\": \"bitbucket.org\",\"mp_name_tag\": \"fabriciolima31@gmail.com\",\"uid\": 737200,\"active\": true,\"alpha\": false,\"beta\": false,\"c9version\": \"v2\",\"no_newsletter\": false,\"pricingPlan\": \"Free\",\"region\": \"usw\",\"id\": 737200,\"$created\": \"2015-07-10T20:57:23.972Z\",\"$email\": \"fabriciolima31@gmail.com\",\"$first_name\": \"Fabricio\",\"$last_name\": \"Lima\",\"$name\": \"Fabricio Lima\",\"$username\": \"fabriciolima31\",\"subscription_on_signup\": \"\",\"Experiment: EID_7_More_Memory\": \"Original\",\"lastWorkspaceTypeUsed\": \"php\",\"Optimizely EID_7_More_Memory\": \"Original\"}'
+    '_csrf' => '5a293035351b7031098e7206586e0bb67f03db7e1e77441cb4b2da3e64292086a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4l9gJMHeOvQ147sh4eWjLJmlxi9VIokK\";}'
+    'PHPSESSID' => 'b03vpraajbkf7s8gucf24vnmg7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'fezobmz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'progweb-fabriciolima31.c9.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'ajs_user_id=737200; ajs_group_id=null; ajs_anonymous_id=%22547b4b2b-1f2c-4391-9eea-ae0e882f38a1%22; _cioid=737200; _cio=67c9fa09-9bc5-9fbc-ff76-fd6257cc7cbe; _td=69a330df-ff9d-48af-dcfa-b0379e292801; mp_b3c9c8a69380fc42c4c8bcf3755f4878_mixpanel=%7B%22distinct_id%22%3A%20737200%2C%22%24initial_referrer%22%3A%20%22https%3A%2F%2Fbitbucket.org%2Faccount%2Fsignin%2F%3Fnext%3D%2Fapi%2F1.0%2Foauth%2Fauthenticate%2F%253Foauth_token%253Dh4hy55hnGUV7YJt6VN%22%2C%22%24initial_referring_domain%22%3A%20%22bitbucket.org%22%2C%22mp_name_tag%22%3A%20%22fabriciolima31%40gmail.com%22%2C%22uid%22%3A%20737200%2C%22active%22%3A%20true%2C%22alpha%22%3A%20false%2C%22beta%22%3A%20false%2C%22c9version%22%3A%20%22v2%22%2C%22no_newsletter%22%3A%20false%2C%22pricingPlan%22%3A%20%22Free%22%2C%22region%22%3A%20%22usw%22%2C%22id%22%3A%20737200%2C%22%24created%22%3A%20%222015-07-10T20%3A57%3A23.972Z%22%2C%22%24email%22%3A%20%22fabriciolima31%40gmail.com%22%2C%22%24first_name%22%3A%20%22Fabricio%22%2C%22%24last_name%22%3A%20%22Lima%22%2C%22%24name%22%3A%20%22Fabricio%20Lima%22%2C%22%24username%22%3A%20%22fabriciolima31%22%2C%22subscription_on_signup%22%3A%20%22%22%2C%22Experiment%3A%20EID_7_More_Memory%22%3A%20%22Original%22%2C%22lastWorkspaceTypeUsed%22%3A%20%22php%22%2C%22Optimizely%20EID_7_More_Memory%22%3A%20%22Original%22%7D; _csrf=5a293035351b7031098e7206586e0bb67f03db7e1e77441cb4b2da3e64292086a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224l9gJMHeOvQ147sh4eWjLJmlxi9VIokK%22%3B%7D; PHPSESSID=b03vpraajbkf7s8gucf24vnmg7'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_REGION' => 'usw'
+    'HTTP_X_FORWARDED_FOR' => '200.129.163.72'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/v0.10.35/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at progweb-fabriciolima31.c9.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'progweb-fabriciolima31.c9.io'
+    'SERVER_ADDR' => '172.17.30.16'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.25.150'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '56237'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/teste'
+    'REQUEST_URI' => '/yii2-app-basic/web/index.php?r=site/teste'
+    'SCRIPT_NAME' => '/yii2-app-basic/web/index.php'
+    'PHP_SELF' => '/yii2-app-basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1436997863.005
+    'REQUEST_TIME' => 1436997863
+]
+2015-07-15 22:04:46 [10.240.238.31][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.240.238.31
+    in /home/ubuntu/workspace/yii2-app-basic/views/layouts/main.php:66
+    in /home/ubuntu/workspace/yii2-app-basic/controllers/SiteController.php:100
+2015-07-15 22:04:46 [10.240.238.31][-][-][info][application] $_GET = [
+    'r' => 'site/teste'
+]
+
+$_COOKIE = [
+    'ajs_user_id' => '737200'
+    'ajs_group_id' => 'null'
+    'ajs_anonymous_id' => '\"547b4b2b-1f2c-4391-9eea-ae0e882f38a1\"'
+    '_cioid' => '737200'
+    '_cio' => '67c9fa09-9bc5-9fbc-ff76-fd6257cc7cbe'
+    '_td' => '69a330df-ff9d-48af-dcfa-b0379e292801'
+    'mp_b3c9c8a69380fc42c4c8bcf3755f4878_mixpanel' => '{\"distinct_id\": 737200,\"$initial_referrer\": \"https://bitbucket.org/account/signin/?next=/api/1.0/oauth/authenticate/%3Foauth_token%3Dh4hy55hnGUV7YJt6VN\",\"$initial_referring_domain\": \"bitbucket.org\",\"mp_name_tag\": \"fabriciolima31@gmail.com\",\"uid\": 737200,\"active\": true,\"alpha\": false,\"beta\": false,\"c9version\": \"v2\",\"no_newsletter\": false,\"pricingPlan\": \"Free\",\"region\": \"usw\",\"id\": 737200,\"$created\": \"2015-07-10T20:57:23.972Z\",\"$email\": \"fabriciolima31@gmail.com\",\"$first_name\": \"Fabricio\",\"$last_name\": \"Lima\",\"$name\": \"Fabricio Lima\",\"$username\": \"fabriciolima31\",\"subscription_on_signup\": \"\",\"Experiment: EID_7_More_Memory\": \"Original\",\"lastWorkspaceTypeUsed\": \"php\",\"Optimizely EID_7_More_Memory\": \"Original\"}'
+    '_csrf' => '5a293035351b7031098e7206586e0bb67f03db7e1e77441cb4b2da3e64292086a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4l9gJMHeOvQ147sh4eWjLJmlxi9VIokK\";}'
+    'PHPSESSID' => 'b03vpraajbkf7s8gucf24vnmg7'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'fezobmz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'progweb-fabriciolima31.c9.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'ajs_user_id=737200; ajs_group_id=null; ajs_anonymous_id=%22547b4b2b-1f2c-4391-9eea-ae0e882f38a1%22; _cioid=737200; _cio=67c9fa09-9bc5-9fbc-ff76-fd6257cc7cbe; _td=69a330df-ff9d-48af-dcfa-b0379e292801; mp_b3c9c8a69380fc42c4c8bcf3755f4878_mixpanel=%7B%22distinct_id%22%3A%20737200%2C%22%24initial_referrer%22%3A%20%22https%3A%2F%2Fbitbucket.org%2Faccount%2Fsignin%2F%3Fnext%3D%2Fapi%2F1.0%2Foauth%2Fauthenticate%2F%253Foauth_token%253Dh4hy55hnGUV7YJt6VN%22%2C%22%24initial_referring_domain%22%3A%20%22bitbucket.org%22%2C%22mp_name_tag%22%3A%20%22fabriciolima31%40gmail.com%22%2C%22uid%22%3A%20737200%2C%22active%22%3A%20true%2C%22alpha%22%3A%20false%2C%22beta%22%3A%20false%2C%22c9version%22%3A%20%22v2%22%2C%22no_newsletter%22%3A%20false%2C%22pricingPlan%22%3A%20%22Free%22%2C%22region%22%3A%20%22usw%22%2C%22id%22%3A%20737200%2C%22%24created%22%3A%20%222015-07-10T20%3A57%3A23.972Z%22%2C%22%24email%22%3A%20%22fabriciolima31%40gmail.com%22%2C%22%24first_name%22%3A%20%22Fabricio%22%2C%22%24last_name%22%3A%20%22Lima%22%2C%22%24name%22%3A%20%22Fabricio%20Lima%22%2C%22%24username%22%3A%20%22fabriciolima31%22%2C%22subscription_on_signup%22%3A%20%22%22%2C%22Experiment%3A%20EID_7_More_Memory%22%3A%20%22Original%22%2C%22lastWorkspaceTypeUsed%22%3A%20%22php%22%2C%22Optimizely%20EID_7_More_Memory%22%3A%20%22Original%22%7D; _csrf=5a293035351b7031098e7206586e0bb67f03db7e1e77441cb4b2da3e64292086a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224l9gJMHeOvQ147sh4eWjLJmlxi9VIokK%22%3B%7D; PHPSESSID=b03vpraajbkf7s8gucf24vnmg7'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_REGION' => 'usw'
+    'HTTP_X_FORWARDED_FOR' => '200.129.163.72'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/v0.10.35/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at progweb-fabriciolima31.c9.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'progweb-fabriciolima31.c9.io'
+    'SERVER_ADDR' => '172.17.30.16'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.238.31'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '37673'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/teste'
+    'REQUEST_URI' => '/yii2-app-basic/web/index.php?r=site/teste'
+    'SCRIPT_NAME' => '/yii2-app-basic/web/index.php'
+    'PHP_SELF' => '/yii2-app-basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1436997886.299
+    'REQUEST_TIME' => 1436997886
+]
+2015-07-15 22:16:57 [10.240.25.150][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.240.25.150
+    in /home/ubuntu/workspace/yii2-app-basic/views/layouts/main.php:66
+    in /home/ubuntu/workspace/yii2-app-basic/controllers/SiteController.php:52
+2015-07-15 22:16:57 [10.240.25.150][-][-][info][application] $_COOKIE = [
+    'ajs_user_id' => '737200'
+    'ajs_group_id' => 'null'
+    'ajs_anonymous_id' => '\"547b4b2b-1f2c-4391-9eea-ae0e882f38a1\"'
+    '_cioid' => '737200'
+    '_cio' => '67c9fa09-9bc5-9fbc-ff76-fd6257cc7cbe'
+    '_csrf' => '5a293035351b7031098e7206586e0bb67f03db7e1e77441cb4b2da3e64292086a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4l9gJMHeOvQ147sh4eWjLJmlxi9VIokK\";}'
+    'PHPSESSID' => 'b03vpraajbkf7s8gucf24vnmg7'
+    '_gat' => '1'
+    '_td' => '69a330df-ff9d-48af-dcfa-b0379e292801'
+    'mp_b3c9c8a69380fc42c4c8bcf3755f4878_mixpanel' => '{\"distinct_id\": 737200,\"$initial_referrer\": \"https://bitbucket.org/account/signin/?next=/api/1.0/oauth/authenticate/%3Foauth_token%3Dh4hy55hnGUV7YJt6VN\",\"$initial_referring_domain\": \"bitbucket.org\",\"mp_name_tag\": \"fabriciolima31@gmail.com\",\"uid\": 737200,\"active\": true,\"alpha\": false,\"beta\": false,\"c9version\": \"v2\",\"no_newsletter\": false,\"pricingPlan\": \"Free\",\"region\": \"usw\",\"id\": 737200,\"$created\": \"2015-07-10T20:57:23.972Z\",\"$email\": \"fabriciolima31@gmail.com\",\"$first_name\": \"Fabricio\",\"$last_name\": \"Lima\",\"$name\": \"Fabricio Lima\",\"$username\": \"fabriciolima31\",\"subscription_on_signup\": \"\",\"Experiment: EID_7_More_Memory\": \"Original\",\"lastWorkspaceTypeUsed\": \"php\"}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'fezobmz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'progweb-fabriciolima31.c9.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'https://progweb-fabriciolima31.c9.io/yii2-app-basic/'
+    'HTTP_COOKIE' => 'ajs_user_id=737200; ajs_group_id=null; ajs_anonymous_id=%22547b4b2b-1f2c-4391-9eea-ae0e882f38a1%22; _cioid=737200; _cio=67c9fa09-9bc5-9fbc-ff76-fd6257cc7cbe; _csrf=5a293035351b7031098e7206586e0bb67f03db7e1e77441cb4b2da3e64292086a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224l9gJMHeOvQ147sh4eWjLJmlxi9VIokK%22%3B%7D; PHPSESSID=b03vpraajbkf7s8gucf24vnmg7; _gat=1; _td=69a330df-ff9d-48af-dcfa-b0379e292801; mp_b3c9c8a69380fc42c4c8bcf3755f4878_mixpanel=%7B%22distinct_id%22%3A%20737200%2C%22%24initial_referrer%22%3A%20%22https%3A%2F%2Fbitbucket.org%2Faccount%2Fsignin%2F%3Fnext%3D%2Fapi%2F1.0%2Foauth%2Fauthenticate%2F%253Foauth_token%253Dh4hy55hnGUV7YJt6VN%22%2C%22%24initial_referring_domain%22%3A%20%22bitbucket.org%22%2C%22mp_name_tag%22%3A%20%22fabriciolima31%40gmail.com%22%2C%22uid%22%3A%20737200%2C%22active%22%3A%20true%2C%22alpha%22%3A%20false%2C%22beta%22%3A%20false%2C%22c9version%22%3A%20%22v2%22%2C%22no_newsletter%22%3A%20false%2C%22pricingPlan%22%3A%20%22Free%22%2C%22region%22%3A%20%22usw%22%2C%22id%22%3A%20737200%2C%22%24created%22%3A%20%222015-07-10T20%3A57%3A23.972Z%22%2C%22%24email%22%3A%20%22fabriciolima31%40gmail.com%22%2C%22%24first_name%22%3A%20%22Fabricio%22%2C%22%24last_name%22%3A%20%22Lima%22%2C%22%24name%22%3A%20%22Fabricio%20Lima%22%2C%22%24username%22%3A%20%22fabriciolima31%22%2C%22subscription_on_signup%22%3A%20%22%22%2C%22Experiment%3A%20EID_7_More_Memory%22%3A%20%22Original%22%2C%22lastWorkspaceTypeUsed%22%3A%20%22php%22%7D'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_REGION' => 'usw'
+    'HTTP_X_FORWARDED_FOR' => '200.129.163.72'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/v0.10.35/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at progweb-fabriciolima31.c9.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'progweb-fabriciolima31.c9.io'
+    'SERVER_ADDR' => '172.17.30.16'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.25.150'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '42068'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2-app-basic/web/'
+    'SCRIPT_NAME' => '/yii2-app-basic/web/index.php'
+    'PHP_SELF' => '/yii2-app-basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1436998617.524
+    'REQUEST_TIME' => 1436998617
+]
+2015-07-15 22:17:00 [10.240.238.31][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.240.238.31
+    in /home/ubuntu/workspace/yii2-app-basic/views/layouts/main.php:66
+    in /home/ubuntu/workspace/yii2-app-basic/controllers/SiteController.php:94
+2015-07-15 22:17:00 [10.240.238.31][-][-][info][application] $_GET = [
+    'r' => 'site/about'
+]
+
+$_COOKIE = [
+    'ajs_user_id' => '737200'
+    'ajs_group_id' => 'null'
+    'ajs_anonymous_id' => '\"547b4b2b-1f2c-4391-9eea-ae0e882f38a1\"'
+    '_cioid' => '737200'
+    '_cio' => '67c9fa09-9bc5-9fbc-ff76-fd6257cc7cbe'
+    '_csrf' => '5a293035351b7031098e7206586e0bb67f03db7e1e77441cb4b2da3e64292086a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4l9gJMHeOvQ147sh4eWjLJmlxi9VIokK\";}'
+    'PHPSESSID' => 'b03vpraajbkf7s8gucf24vnmg7'
+    '_gat' => '1'
+    '_td' => '69a330df-ff9d-48af-dcfa-b0379e292801'
+    'mp_b3c9c8a69380fc42c4c8bcf3755f4878_mixpanel' => '{\"distinct_id\": 737200,\"$initial_referrer\": \"https://bitbucket.org/account/signin/?next=/api/1.0/oauth/authenticate/%3Foauth_token%3Dh4hy55hnGUV7YJt6VN\",\"$initial_referring_domain\": \"bitbucket.org\",\"mp_name_tag\": \"fabriciolima31@gmail.com\",\"uid\": 737200,\"active\": true,\"alpha\": false,\"beta\": false,\"c9version\": \"v2\",\"no_newsletter\": false,\"pricingPlan\": \"Free\",\"region\": \"usw\",\"id\": 737200,\"$created\": \"2015-07-10T20:57:23.972Z\",\"$email\": \"fabriciolima31@gmail.com\",\"$first_name\": \"Fabricio\",\"$last_name\": \"Lima\",\"$name\": \"Fabricio Lima\",\"$username\": \"fabriciolima31\",\"subscription_on_signup\": \"\",\"Experiment: EID_7_More_Memory\": \"Original\",\"lastWorkspaceTypeUsed\": \"php\"}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'fezobmz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'progweb-fabriciolima31.c9.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'https://progweb-fabriciolima31.c9.io/yii2-app-basic/web/'
+    'HTTP_COOKIE' => 'ajs_user_id=737200; ajs_group_id=null; ajs_anonymous_id=%22547b4b2b-1f2c-4391-9eea-ae0e882f38a1%22; _cioid=737200; _cio=67c9fa09-9bc5-9fbc-ff76-fd6257cc7cbe; _csrf=5a293035351b7031098e7206586e0bb67f03db7e1e77441cb4b2da3e64292086a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224l9gJMHeOvQ147sh4eWjLJmlxi9VIokK%22%3B%7D; PHPSESSID=b03vpraajbkf7s8gucf24vnmg7; _gat=1; _td=69a330df-ff9d-48af-dcfa-b0379e292801; mp_b3c9c8a69380fc42c4c8bcf3755f4878_mixpanel=%7B%22distinct_id%22%3A%20737200%2C%22%24initial_referrer%22%3A%20%22https%3A%2F%2Fbitbucket.org%2Faccount%2Fsignin%2F%3Fnext%3D%2Fapi%2F1.0%2Foauth%2Fauthenticate%2F%253Foauth_token%253Dh4hy55hnGUV7YJt6VN%22%2C%22%24initial_referring_domain%22%3A%20%22bitbucket.org%22%2C%22mp_name_tag%22%3A%20%22fabriciolima31%40gmail.com%22%2C%22uid%22%3A%20737200%2C%22active%22%3A%20true%2C%22alpha%22%3A%20false%2C%22beta%22%3A%20false%2C%22c9version%22%3A%20%22v2%22%2C%22no_newsletter%22%3A%20false%2C%22pricingPlan%22%3A%20%22Free%22%2C%22region%22%3A%20%22usw%22%2C%22id%22%3A%20737200%2C%22%24created%22%3A%20%222015-07-10T20%3A57%3A23.972Z%22%2C%22%24email%22%3A%20%22fabriciolima31%40gmail.com%22%2C%22%24first_name%22%3A%20%22Fabricio%22%2C%22%24last_name%22%3A%20%22Lima%22%2C%22%24name%22%3A%20%22Fabricio%20Lima%22%2C%22%24username%22%3A%20%22fabriciolima31%22%2C%22subscription_on_signup%22%3A%20%22%22%2C%22Experiment%3A%20EID_7_More_Memory%22%3A%20%22Original%22%2C%22lastWorkspaceTypeUsed%22%3A%20%22php%22%7D'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_REGION' => 'usw'
+    'HTTP_X_FORWARDED_FOR' => '200.129.163.72'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/v0.10.35/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at progweb-fabriciolima31.c9.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'progweb-fabriciolima31.c9.io'
+    'SERVER_ADDR' => '172.17.30.16'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.238.31'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '50160'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fabout'
+    'REQUEST_URI' => '/yii2-app-basic/web/index.php?r=site%2Fabout'
+    'SCRIPT_NAME' => '/yii2-app-basic/web/index.php'
+    'PHP_SELF' => '/yii2-app-basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1436998620.415
+    'REQUEST_TIME' => 1436998620
+]
+2015-07-15 22:17:02 [10.240.238.31][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.240.238.31
+    in /home/ubuntu/workspace/yii2-app-basic/views/layouts/main.php:66
+    in /home/ubuntu/workspace/yii2-app-basic/controllers/SiteController.php:67
+2015-07-15 22:17:02 [10.240.238.31][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    'ajs_user_id' => '737200'
+    'ajs_group_id' => 'null'
+    'ajs_anonymous_id' => '\"547b4b2b-1f2c-4391-9eea-ae0e882f38a1\"'
+    '_cioid' => '737200'
+    '_cio' => '67c9fa09-9bc5-9fbc-ff76-fd6257cc7cbe'
+    '_csrf' => '5a293035351b7031098e7206586e0bb67f03db7e1e77441cb4b2da3e64292086a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4l9gJMHeOvQ147sh4eWjLJmlxi9VIokK\";}'
+    'PHPSESSID' => 'b03vpraajbkf7s8gucf24vnmg7'
+    '_gat' => '1'
+    '_td' => '69a330df-ff9d-48af-dcfa-b0379e292801'
+    'mp_b3c9c8a69380fc42c4c8bcf3755f4878_mixpanel' => '{\"distinct_id\": 737200,\"$initial_referrer\": \"https://bitbucket.org/account/signin/?next=/api/1.0/oauth/authenticate/%3Foauth_token%3Dh4hy55hnGUV7YJt6VN\",\"$initial_referring_domain\": \"bitbucket.org\",\"mp_name_tag\": \"fabriciolima31@gmail.com\",\"uid\": 737200,\"active\": true,\"alpha\": false,\"beta\": false,\"c9version\": \"v2\",\"no_newsletter\": false,\"pricingPlan\": \"Free\",\"region\": \"usw\",\"id\": 737200,\"$created\": \"2015-07-10T20:57:23.972Z\",\"$email\": \"fabriciolima31@gmail.com\",\"$first_name\": \"Fabricio\",\"$last_name\": \"Lima\",\"$name\": \"Fabricio Lima\",\"$username\": \"fabriciolima31\",\"subscription_on_signup\": \"\",\"Experiment: EID_7_More_Memory\": \"Original\",\"lastWorkspaceTypeUsed\": \"php\"}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'fezobmz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'progweb-fabriciolima31.c9.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'https://progweb-fabriciolima31.c9.io/yii2-app-basic/web/index.php?r=site%2Fabout'
+    'HTTP_COOKIE' => 'ajs_user_id=737200; ajs_group_id=null; ajs_anonymous_id=%22547b4b2b-1f2c-4391-9eea-ae0e882f38a1%22; _cioid=737200; _cio=67c9fa09-9bc5-9fbc-ff76-fd6257cc7cbe; _csrf=5a293035351b7031098e7206586e0bb67f03db7e1e77441cb4b2da3e64292086a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224l9gJMHeOvQ147sh4eWjLJmlxi9VIokK%22%3B%7D; PHPSESSID=b03vpraajbkf7s8gucf24vnmg7; _gat=1; _td=69a330df-ff9d-48af-dcfa-b0379e292801; mp_b3c9c8a69380fc42c4c8bcf3755f4878_mixpanel=%7B%22distinct_id%22%3A%20737200%2C%22%24initial_referrer%22%3A%20%22https%3A%2F%2Fbitbucket.org%2Faccount%2Fsignin%2F%3Fnext%3D%2Fapi%2F1.0%2Foauth%2Fauthenticate%2F%253Foauth_token%253Dh4hy55hnGUV7YJt6VN%22%2C%22%24initial_referring_domain%22%3A%20%22bitbucket.org%22%2C%22mp_name_tag%22%3A%20%22fabriciolima31%40gmail.com%22%2C%22uid%22%3A%20737200%2C%22active%22%3A%20true%2C%22alpha%22%3A%20false%2C%22beta%22%3A%20false%2C%22c9version%22%3A%20%22v2%22%2C%22no_newsletter%22%3A%20false%2C%22pricingPlan%22%3A%20%22Free%22%2C%22region%22%3A%20%22usw%22%2C%22id%22%3A%20737200%2C%22%24created%22%3A%20%222015-07-10T20%3A57%3A23.972Z%22%2C%22%24email%22%3A%20%22fabriciolima31%40gmail.com%22%2C%22%24first_name%22%3A%20%22Fabricio%22%2C%22%24last_name%22%3A%20%22Lima%22%2C%22%24name%22%3A%20%22Fabricio%20Lima%22%2C%22%24username%22%3A%20%22fabriciolima31%22%2C%22subscription_on_signup%22%3A%20%22%22%2C%22Experiment%3A%20EID_7_More_Memory%22%3A%20%22Original%22%2C%22lastWorkspaceTypeUsed%22%3A%20%22php%22%7D'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_REGION' => 'usw'
+    'HTTP_X_FORWARDED_FOR' => '200.129.163.72'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/v0.10.35/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at progweb-fabriciolima31.c9.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'progweb-fabriciolima31.c9.io'
+    'SERVER_ADDR' => '172.17.30.16'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.238.31'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '50188'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/yii2-app-basic/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/yii2-app-basic/web/index.php'
+    'PHP_SELF' => '/yii2-app-basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1436998622.665
+    'REQUEST_TIME' => 1436998622
+]
+2015-07-15 22:17:12 [10.240.212.249][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.240.212.249
+    in /home/ubuntu/workspace/yii2-app-basic/views/layouts/main.php:66
+    in /home/ubuntu/workspace/yii2-app-basic/controllers/SiteController.php:67
+2015-07-15 22:17:12 [10.240.212.249][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf' => 'dF8uM21Bdy1AMxdUJww/SDspfwJZdgRFQDp5WSELGkEMNhdlJC4cZg=='
+    'LoginForm' => [
+        'username' => 'teste'
+        'password' => 'teste'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    'ajs_user_id' => '737200'
+    'ajs_group_id' => 'null'
+    'ajs_anonymous_id' => '\"547b4b2b-1f2c-4391-9eea-ae0e882f38a1\"'
+    '_cioid' => '737200'
+    '_cio' => '67c9fa09-9bc5-9fbc-ff76-fd6257cc7cbe'
+    '_csrf' => '5a293035351b7031098e7206586e0bb67f03db7e1e77441cb4b2da3e64292086a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4l9gJMHeOvQ147sh4eWjLJmlxi9VIokK\";}'
+    'PHPSESSID' => 'b03vpraajbkf7s8gucf24vnmg7'
+    '_gat' => '1'
+    '_td' => '69a330df-ff9d-48af-dcfa-b0379e292801'
+    'mp_b3c9c8a69380fc42c4c8bcf3755f4878_mixpanel' => '{\"distinct_id\": 737200,\"$initial_referrer\": \"https://bitbucket.org/account/signin/?next=/api/1.0/oauth/authenticate/%3Foauth_token%3Dh4hy55hnGUV7YJt6VN\",\"$initial_referring_domain\": \"bitbucket.org\",\"mp_name_tag\": \"fabriciolima31@gmail.com\",\"uid\": 737200,\"active\": true,\"alpha\": false,\"beta\": false,\"c9version\": \"v2\",\"no_newsletter\": false,\"pricingPlan\": \"Free\",\"region\": \"usw\",\"id\": 737200,\"$created\": \"2015-07-10T20:57:23.972Z\",\"$email\": \"fabriciolima31@gmail.com\",\"$first_name\": \"Fabricio\",\"$last_name\": \"Lima\",\"$name\": \"Fabricio Lima\",\"$username\": \"fabriciolima31\",\"subscription_on_signup\": \"\",\"Experiment: EID_7_More_Memory\": \"Original\",\"lastWorkspaceTypeUsed\": \"php\"}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'fezobmz'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'progweb-fabriciolima31.c9.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'https://progweb-fabriciolima31.c9.io/yii2-app-basic/web/index.php?r=site%2Flogin'
+    'HTTP_COOKIE' => 'ajs_user_id=737200; ajs_group_id=null; ajs_anonymous_id=%22547b4b2b-1f2c-4391-9eea-ae0e882f38a1%22; _cioid=737200; _cio=67c9fa09-9bc5-9fbc-ff76-fd6257cc7cbe; _csrf=5a293035351b7031098e7206586e0bb67f03db7e1e77441cb4b2da3e64292086a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224l9gJMHeOvQ147sh4eWjLJmlxi9VIokK%22%3B%7D; PHPSESSID=b03vpraajbkf7s8gucf24vnmg7; _gat=1; _td=69a330df-ff9d-48af-dcfa-b0379e292801; mp_b3c9c8a69380fc42c4c8bcf3755f4878_mixpanel=%7B%22distinct_id%22%3A%20737200%2C%22%24initial_referrer%22%3A%20%22https%3A%2F%2Fbitbucket.org%2Faccount%2Fsignin%2F%3Fnext%3D%2Fapi%2F1.0%2Foauth%2Fauthenticate%2F%253Foauth_token%253Dh4hy55hnGUV7YJt6VN%22%2C%22%24initial_referring_domain%22%3A%20%22bitbucket.org%22%2C%22mp_name_tag%22%3A%20%22fabriciolima31%40gmail.com%22%2C%22uid%22%3A%20737200%2C%22active%22%3A%20true%2C%22alpha%22%3A%20false%2C%22beta%22%3A%20false%2C%22c9version%22%3A%20%22v2%22%2C%22no_newsletter%22%3A%20false%2C%22pricingPlan%22%3A%20%22Free%22%2C%22region%22%3A%20%22usw%22%2C%22id%22%3A%20737200%2C%22%24created%22%3A%20%222015-07-10T20%3A57%3A23.972Z%22%2C%22%24email%22%3A%20%22fabriciolima31%40gmail.com%22%2C%22%24first_name%22%3A%20%22Fabricio%22%2C%22%24last_name%22%3A%20%22Lima%22%2C%22%24name%22%3A%20%22Fabricio%20Lima%22%2C%22%24username%22%3A%20%22fabriciolima31%22%2C%22subscription_on_signup%22%3A%20%22%22%2C%22Experiment%3A%20EID_7_More_Memory%22%3A%20%22Original%22%2C%22lastWorkspaceTypeUsed%22%3A%20%22php%22%7D'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '198'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_REGION' => 'usw'
+    'HTTP_X_FORWARDED_FOR' => '200.129.163.72'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/v0.10.35/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at progweb-fabriciolima31.c9.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'progweb-fabriciolima31.c9.io'
+    'SERVER_ADDR' => '172.17.30.16'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.212.249'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '49046'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/yii2-app-basic/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/yii2-app-basic/web/index.php'
+    'PHP_SELF' => '/yii2-app-basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1436998632.344
+    'REQUEST_TIME' => 1436998632
+]
+2015-07-16 14:10:38 [10.240.213.116][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: /home/ubuntu/workspace/yii2-app-basic/views/site/teste.php' in /home/ubuntu/workspace/yii2-app-basic/vendor/yiisoft/yii2/base/View.php:226
+Stack trace:
+#0 /home/ubuntu/workspace/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/home/ubuntu/wo...', Array, Object(app\controllers\SiteController))
+#1 /home/ubuntu/workspace/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(371): yii\base\View->render('teste', Array, Object(app\controllers\SiteController))
+#2 /home/ubuntu/workspace/yii2-app-basic/controllers/SiteController.php(100): yii\base\Controller->render('teste', Array)
+#3 [internal function]: app\controllers\SiteController->actionTeste()
+#4 /home/ubuntu/workspace/yii2-app-basic/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#5 /home/ubuntu/workspace/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#6 /home/ubuntu/workspace/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('teste', Array)
+#7 /home/ubuntu/workspace/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/teste', Array)
+#8 /home/ubuntu/workspace/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/ubuntu/workspace/yii2-app-basic/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2015-07-16 14:10:38 [10.240.213.116][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.240.213.116
+2015-07-16 14:10:38 [10.240.213.116][-][-][info][application] $_GET = [
+    'r' => 'site/teste'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'progweb-fabriciolima31.c9.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_REGION' => 'usw'
+    'HTTP_X_FORWARDED_FOR' => '200.129.163.72'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/v0.10.35/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at progweb-fabriciolima31.c9.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'progweb-fabriciolima31.c9.io'
+    'SERVER_ADDR' => '172.17.30.16'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.213.116'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '53284'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site/teste'
+    'REQUEST_URI' => '/yii2-app-basic/web/index.php?r=site/teste'
+    'SCRIPT_NAME' => '/yii2-app-basic/web/index.php'
+    'PHP_SELF' => '/yii2-app-basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1437055838.19
+    'REQUEST_TIME' => 1437055838
+]
+2015-07-17 19:41:48 [10.240.25.150][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 10.240.25.150
+    in /home/ubuntu/workspace/yii2-app-basic/views/layouts/main.php:66
+    in /home/ubuntu/workspace/yii2-app-basic/controllers/SiteController.php:52
+2015-07-17 19:41:48 [10.240.25.150][-][-][info][application] $_COOKIE = [
+    'ajs_user_id' => '737200'
+    'ajs_group_id' => 'null'
+    'ajs_anonymous_id' => '\"aa7c071f-116c-409f-8fa8-4ddae4bef928\"'
+    '_gat' => '1'
+    '_cio' => 'd052229d-62fe-0a8a-6c84-2724eaa86f80'
+    '_cioid' => '737200'
+    '_td' => '7f6b6636-f1bb-415b-d8be-b3cc975456e7'
+    'mp_b3c9c8a69380fc42c4c8bcf3755f4878_mixpanel' => '{\"distinct_id\": 737200,\"Optimizely EID_7_More_Memory\": \"Original\",\"$initial_referrer\": \"$direct\",\"$initial_referring_domain\": \"$direct\",\"Experiment: EID_7_More_Memory\": \"Original\",\"__mps\": {},\"__mpso\": {},\"__mpa\": {},\"__mpu\": {},\"__mpap\": [],\"mp_name_tag\": \"fabriciolima31@gmail.com\",\"uid\": 737200,\"active\": true,\"alpha\": false,\"beta\": false,\"c9version\": \"v2\",\"no_newsletter\": false,\"pricingPlan\": \"Free\",\"region\": \"usw\",\"id\": 737200,\"$created\": \"2015-07-10T20:57:23.972Z\",\"$email\": \"fabriciolima31@gmail.com\",\"$first_name\": \"Fabricio\",\"$last_name\": \"Lima\",\"$name\": \"Fabricio Lima\",\"$username\": \"fabriciolima31\"}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'progweb-fabriciolima31.c9.io'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'https://progweb-fabriciolima31.c9.io/yii2-app-basic/'
+    'HTTP_COOKIE' => 'ajs_user_id=737200; ajs_group_id=null; ajs_anonymous_id=%22aa7c071f-116c-409f-8fa8-4ddae4bef928%22; _gat=1; _cio=d052229d-62fe-0a8a-6c84-2724eaa86f80; _cioid=737200; _td=7f6b6636-f1bb-415b-d8be-b3cc975456e7; mp_b3c9c8a69380fc42c4c8bcf3755f4878_mixpanel=%7B%22distinct_id%22%3A%20737200%2C%22Optimizely%20EID_7_More_Memory%22%3A%20%22Original%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%2C%22Experiment%3A%20EID_7_More_Memory%22%3A%20%22Original%22%2C%22__mps%22%3A%20%7B%7D%2C%22__mpso%22%3A%20%7B%7D%2C%22__mpa%22%3A%20%7B%7D%2C%22__mpu%22%3A%20%7B%7D%2C%22__mpap%22%3A%20%5B%5D%2C%22mp_name_tag%22%3A%20%22fabriciolima31%40gmail.com%22%2C%22uid%22%3A%20737200%2C%22active%22%3A%20true%2C%22alpha%22%3A%20false%2C%22beta%22%3A%20false%2C%22c9version%22%3A%20%22v2%22%2C%22no_newsletter%22%3A%20false%2C%22pricingPlan%22%3A%20%22Free%22%2C%22region%22%3A%20%22usw%22%2C%22id%22%3A%20737200%2C%22%24created%22%3A%20%222015-07-10T20%3A57%3A23.972Z%22%2C%22%24email%22%3A%20%22fabriciolima31%40gmail.com%22%2C%22%24first_name%22%3A%20%22Fabricio%22%2C%22%24last_name%22%3A%20%22Lima%22%2C%22%24name%22%3A%20%22Fabricio%20Lima%22%2C%22%24username%22%3A%20%22fabriciolima31%22%7D'
+    'HTTP_X_FORWARDED_PROTO' => 'https'
+    'HTTP_X_REGION' => 'usw'
+    'HTTP_X_FORWARDED_FOR' => '200.129.163.72'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => '/home/ubuntu/.nvm/v0.10.35/bin:/usr/local/rvm/gems/ruby-2.2.1/bin:/usr/local/rvm/gems/ruby-2.2.1@global/bin:/usr/local/rvm/rubies/ruby-2.2.1/bin:/mnt/shared/bin:/home/ubuntu/workspace/node_modules/.bin:/home/ubuntu/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/mnt/shared/sbin:/opt/gitl:/opt/go/bin:/mnt/shared/c9/app.nw/bin:/usr/local/rvm/bin'
+    'LD_LIBRARY_PATH' => '~/.c9/local/lib'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at progweb-fabriciolima31.c9.io Port 443</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'progweb-fabriciolima31.c9.io'
+    'SERVER_ADDR' => '172.17.30.16'
+    'SERVER_PORT' => '443'
+    'REMOTE_ADDR' => '10.240.25.150'
+    'DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'REQUEST_SCHEME' => 'https'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/home/ubuntu/workspace'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => '/home/ubuntu/workspace/yii2-app-basic/web/index.php'
+    'REMOTE_PORT' => '48776'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/yii2-app-basic/web/'
+    'SCRIPT_NAME' => '/yii2-app-basic/web/index.php'
+    'PHP_SELF' => '/yii2-app-basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1437162108.211
+    'REQUEST_TIME' => 1437162108
+]

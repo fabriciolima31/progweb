@@ -93,4 +93,10 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+    
+    public function actionTeste(){
+        $v = "auhauha";
+        
+        return $this->render('teste',['var'=>"asdasdasd"]);
+    }
 }
